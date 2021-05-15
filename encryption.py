@@ -1,3 +1,5 @@
+# need to implement ord(char) into this lol
+
 from random import randint, choice
 
 encryptionLookupValues = dict(
