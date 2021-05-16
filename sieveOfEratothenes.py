@@ -17,7 +17,7 @@ def sieveMethod(num):
 def writeKeys():
     with open('keys.txt', 'w') as f:
         for i in sieveMethod(2 ** 20):
-            if i > 2 ** 20 // 32:
+            if i > 2 ** 15:
                 f.write(f'{i}\n')
 
 def readKeys():
