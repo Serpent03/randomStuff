@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <font face="Agave">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/agave.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/jetbrains-mono.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/liberation-sans.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"> 
+    <!-- <link rel="stylesheet" href="https://newcss.net/theme/terminal.css"> -->
+    <title>Document</title>
+    
+
+    <header>
+        <h1 align="center">
+            <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Apollo_program.svg" align="middle" alt=""> <br> Apollo at 50
+        </h1>
+    </header>
+
+</head>
+
+<body>
+
+    <h1 align="center">How we got to the Moon(and back)</h1>
+    <p align="middle">A brief historical guide about mankind's greatest adventure</p>
+    <br>
+    <img src="https://galileounbound.files.wordpress.com/2019/07/94ljnrb7_ztoxv71xkjcdsxheshae48x1laqr2fqosy.jpg?w=3840">
+
+    <blockquote>
+        <h2><b>INDEX</b></h2>
+        <h4>
+            <ul>
+                <li><a href="#one">Proving Tsiolkovsky's claim</a></li>
+                <li><a href="#two">Approaching the apex</a></li>
+                <li><a href="#three">Underprepared for the undertaking</a></li>
+                <li><a href="#four">Ground control to Major Tom</a></li>
+                <li><a href="#five">We interrupt this program</a></li>
+                <li><a href="#six">Scattered with a chance of Earthrise</a></li>
+                <li><a href="#seven">"And we'll see ya in 5 hours. Don't accept any TEI updates!"</a></li>
+                <li><a href="#eight">We come in peace</a></li>
+                <li><a href="#nine">Epilogue</a></li>
+            </ul>
+        </h4>
+    </blockquote>
+
+    <hr>
+
+    <div>
+        <h2 id="one">Proving Tsiolkovsky's claim</h2>
+        <font face="JetBrains Mono" size="3">
+        <figure>
+            <figcaption align="baseline"><font size="2">He even has that scientist look to him - Konstantin Tsiolkovsky</font></figcaption>
+            <img align="bottom" width="250" src="https://m.media-amazon.com/images/M/MV5BNzIzM2E5YzctZGZkMi00NzkyLWIwMTEtYWI0NDIzZTI0OTMwXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg?" alt="">
+        </figure>
+
+        At a time when people thought that the Earth was flat and that man would take flight in a 
+        million years, there was a visionary by the name of Konstantin Eduardovich Tsiolkovsky - born in 
+        a small village named Izhevskoe, in Russia.
+        <br><br>
+        This man would later go on to design what is today known as the "rocket equation", and lay down the groundwork as the 
+        father of modern rocketry. However despite all his works, they were still theories, untested by the harshness of gravity and 
+        doubted by the mind of man.
+        <br><br>
+        <details>
+            <summary>V2 Rocket</summary>
+            <figure>
+                <figcaption align="baseline"><font size="2">Used during the German raids of London, in WW2.</font></figcaption>
+                <img align="middle" width="550" src="https://i.ytimg.com/vi/qGY1QGl6J_I/maxresdefault.jpg" alt="">
+            </figure>
+        </details>
+        Fast forward a century - WW1, The Great Depression, WW2, the V-2 rocket, inter-continental ballistic missile technology, and we arrive at a small rocket launch site
+        at Kazakhstan, known as Baikonur Site 1, manned by the greatest of the USSR's rocket scientists and spearheaded by no one but 
+        Sergie Korolev himself - all of them out to prove that orbit can be achieved; and that Tsiolkovsky was correct a century ago. 
+
+        </font>
+    </div>
+    
+    <hr>
+
+    <div id="two">
+        <h2>Approaching the apex</h2>
+        <font face="JetBrains Mono" size="3">    
+
+        <figure>
+            <figcaption align="baseline"><font size="2">Werner Von Braun's competitor, and in some ways his better - Sergei Korolev</font></figcaption>
+            <img align="bottom" width="350" src="https://pbs.twimg.com/media/Ct9OgrzWEAAhOSh.jpg" alt="">
+        </figure>
+
+        October 4, 1957 - was an ordinary day for many people. People woke up, toiled around, went to work in the morning - 
+        and it was a perfectly normal day, and that's all it would have been - had it not been for the <i>Sputnik</i>. A shiny, metallic
+        sphere with a weight of 86 kilograms - fitted with basic radio and scientific instruments, this 23 inch spherical satellite
+        was the one behind triggering an entire race to reach for the cosmos, in the first time ever in history.
+        <br><br>
+        <details>
+            <summary>8K71PS</summary>
+            <figure>
+                <img align="middle" width="250" src="https://i5.walmartimages.com/asr/e9acf1b4-ecca-4f66-b10d-129adfbdabb8_1.81ad9af7fdbd6ff67611478470dd3ef7.jpeg" alt="">
+            </figure>
+        </details>  
+
+        Sputnik was launched on the "8K71PS", a derivative of the R-7, which was an ICBM originally designed as a weapon aimed towards
+        the USA during the cold war. 
+        <br><br>
+        After a ten-minute launch into orbit, the Sputnik finally became the first man-made satellite to orbit the Earth - and this proved the fact
+        that orbit could be achieved - which led the way onto the next crucial step - putting the first man in space.
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="three">
+        <h2>Underprepared for the undertaking</h2>
+        <font face="JetBrains Mono" size="3">
+
+        <figure>
+            <figcaption align="baseline"><font size="2">The first man in space - Yuri Gagarin</font></figcaption>
+            <img align="bottom" width="400" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1553331556i/27254024._SX540_.jpg" alt="">
+        </figure>
+
+        The launch of Sputnik took everyone by surprise - however none more so than it's direct rival - the United States of America. The USA had not been anticipating the USSR to have
+        orbital technology this early in the game. Because of Sputnik, the US space industry had to shift into overdrive. Various rockets, ICBMs, guidance systems and human workforces were put into the 
+        overdrive so that they could achieve the next objective - putting a human in orbit.
+        <br><br>
+        For this, they chose the <i>Mercury Seven</i>, a group of highly talented aviators from various walks of life to fly into space. Life and training proceeded, and out of the seven,
+        Alan Shepard was the one who got selected. He was to fly onboard the <i>Mercury-Redstone 1</i>, NASA's rocket for putting humans into space.
+        <br><br>
+        <details>
+            <summary>Mercury-Redstone 1</summary>
+            <figure>
+                <figcaption align="baseline"><font size="2">Alan Shepard, next to his spacraft capsule.</font></figcaption>
+                <img align="middle" width="450" src="https://images.ctfassets.net/cnu0m8re1exe/14Z2I7yxPdsnqdDnxqiwSQ/51fe3a572c11365f964b57006508a570/AlanShepardFreedom7.jpg?" alt="">
+            </figure>
+        </details>  
+        However, various budget overruns, delays, safety management and other logistical challenges proved that NASA was still not yet ready at the whole to compete with the USSR on the space frontier. Yuri Gagarin, launching just
+        a month prior to Alan Shepard, managed to become the first human in space, and the first one to orbit the entire Earth. 
+        
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="four">
+        <h2>Ground control to Major Tom</h2>
+        <font face="JetBrains Mono" size="3">
+
+        <figure>
+            <figcaption align="baseline"><font size="2">Gemini 6A, with Gemini 7 as the foreground</font></figcaption>
+            <img align="bottom" width="400" src="https://rammb.cira.colostate.edu/dev/hillger/Gemini-6A_1965-12-15_Earth_image_S65-63219.jpg" alt="">
+        </figure>
+        
+        Mercury came and went, with it's own special set of problems that NASA solved and learned from. However, the Soviets had beaten them again - this time, by hosting the first spacewalk
+        to happen in Earth orbit, which was done by Alexei Leonov. This meant that the only chance the USA could one-up them - was by getting two spacecraft, in orbit, to come together
+        and rendezvous - which the Soviets had not done till yet.
+        <br><br>
+        There was also another factor - the eventual Lunar mission would require a way to get the astronauts to the surface, and then back. A single ship - landing and then taking off was too dangerous,
+        so the logical answer came down to rendezvous - breaking off the ship in two parts - one a lander, and one a mothership, which reunited back when the astronauts had to go home. However,
+        this meant that before they could try it in Lunar orbit, they had to learn that in the Earth's influence. And thus Gemini was born.
+
+        <details>
+            <summary>The Gemini Experience</summary>
+            <figure>
+                <figcaption align="baseline"><font size="2">Gemini was a period of innovation and risk-payoffs. Illustrated below is the first docking, first rendezvous, and the first American spacewalk - all of which happened
+                    in the twelve Gemini missions.
+                </font></figcaption>
+                <img align="middle" width="400" src="https://lh3.googleusercontent.com/proxy/aNKe89CzSk5q8yr3uMN6RzGHkRF7CCZIZXA_E1P2vrqNUwcbKvITEFlo-f3t09jiRnCjOqs8NgP4rXXGjYFqdCho9iN5gc_dU3Y" alt="">
+            </figure>
+        </details>  
+
+        As Gemini progressed, it was time to move on - NASA had learned, and they had dreamed - now it was time to move onto Apollo, and if done correctly, man would land on it's natural satellite
+        by the end of 1966, for the first time in human history.
+
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="five">
+        <h2>We interrupt this program</h2>
+        <font face="JetBrains Mono" size="3">
+
+        
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="six">
+        <h2>Scattered with a chance of Earthrise</h2>
+        <font face="JetBrains Mono" size="3">
+
+
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="seven">
+        <h2>"And we'll see ya in 5 hours. Don't accept any TEI updates!"</h2>
+        <font face="JetBrains Mono" size="3">
+
+
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="eight">
+        <h2>We come in peace</h2>
+        <font face="JetBrains Mono" size="3">
+
+
+
+        </font>
+    </div>
+
+    <hr>
+
+    <div id="nine">
+        <h2>Epilogue</h2>
+    </div>
+
+    </font>
+
+</body>
+
+    </font>
+</html>
