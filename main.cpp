@@ -9,7 +9,8 @@ using namespace std;
 
 class FactorialSummation {
 private:
-    int totalObjects, result;
+    int totalObjects;
+    int result = 0;
     Factorial* fac;
     vector<thread> threads;
     vector<promise<int>> p;
@@ -20,7 +21,7 @@ private:
         cout << "total Objects: " << totalObjects << endl;
         for (int i = 0; i < totalObjects; i++) {
             cout << "i: " << i << endl;
-            int n = fac[i].getNumber();
+            int n = this->fac[i].getNumber();
             cout << "n: " << n << endl;
             threads.emplace_back(&Factorial::calculate, std::ref(fac[i]), n, std::ref(p[i]));
         }
@@ -29,7 +30,7 @@ private:
 
     void getResult() {
         for (int i = 0; i < totalObjects; i++) {
-            f.push_back(p[i].get_future());
+            this->f.push_back(p[i].get_future());
         }
     }
 
@@ -44,15 +45,17 @@ private:
 
 public:
     FactorialSummation(int n) {
-        totalObjects = n;
+        this->totalObjects = n;
+        this->result = 0;
     }
 
     void makeObjects() {
         cout << "total Objects:  " << totalObjects << endl;
-        fac = new Factorial[totalObjects];
+        this->fac = new Factorial[totalObjects];
         for (int i = 0; i < totalObjects; i++) {
             cout << "i: " << i << endl;
-            fac[i].setNumber(totalObjects - i);
+            this->fac[i].setNumber(totalObjects - i);
+            this->p.push_back(promise<int>());
         }
     }
 
@@ -60,11 +63,12 @@ public:
         calculate();
         joinThreads();
         getResult();
+        int _result = 0;
         for (int i = 0; i < totalObjects; i++) {
             std::lock_guard<std::mutex> lock(resultMutex);
-            result += f[i].get();
+            this->result += f[i].get();
         }
-        return result;
+        return this->result;
     }
     ~FactorialSummation() {
         delete[] fac;

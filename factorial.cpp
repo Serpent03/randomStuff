@@ -10,16 +10,16 @@ Factorial::Factorial() {
 }
 
 void Factorial::setNumber(int n) {
-    result = n;
+    this->result = n;
 }
 
 int Factorial::getNumber() {
-    return result;
+    return this->result;
 }
 
 void Factorial::calculate(int res, std::promise<int>& p) {
     int ans = 1;
-    for (int i = res - 1; i > 0; i--) {
+    for (int i = res; i > 0; i--) {
         ans *= i;
     }
     cout << "reached" << endl;
